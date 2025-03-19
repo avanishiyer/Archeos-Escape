@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9033906597159091754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2292277684965945249}
+  - component: {fileID: 5014728622801605075}
+  m_Layer: 0
+  m_Name: MinionSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2292277684965945249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9033906597159091754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -33.690044, y: 61.04379, z: -0.007954698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5014728622801605075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9033906597159091754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4573d13807144c6ae78c8a81878ecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spiderPrefab: {fileID: 5048641456379916279, guid: 9f3ccc0a4ccfc451b8ccb4677fbfa55d, type: 3}
+  huskPrefab: {fileID: 4353350657104589612, guid: 0e0350624bb904e199e41ae218432b91, type: 3}
+  skeletonPrefab: {fileID: 2765239354311497583, guid: eb75ca63b6ce34d1387f71170ecadb42, type: 3}
+  witchPrefab: {fileID: 5093130590868099012, guid: 430ebf5a56f994bd599719b5f7645f5a, type: 3}
+  spidersToSpawn: 2
+  husksToSpawn: 2
+  skeletonsToSpawn: 0
+  witchsToSpawn: 0
+  spawnCD: 7
+  boss: {fileID: 0}
